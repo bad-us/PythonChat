@@ -104,3 +104,5 @@ with open('test_file.txt', 'w') as f:  # кодировка файла по ум
 
 with open('test_file.txt', 'r', encoding='utf-8', errors='replace') as f:
     print(f.read())
+
+
